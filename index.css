@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+   
+
+}
+
+
+.navbar{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    color: rgb(243, 148, 5);
+    align-items: center;
+    font-weight: bold;
+}
+
+/**   nav_logo   **/ 
+.nav_logo{
+    font-size: 40px;
+    font-family: Verdana;
+    margin-left: 19px;
+    color: aliceblue;
+    font-weight: normal;
+}
+
+
+
+
+/**   nav_semister    **/
+.nav_semister{
+    margin-left: 500px;
+    
+}
+
+
+@media (max-width:730px){
+    *{ width:50% ;}
+}
